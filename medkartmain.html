@@ -1,0 +1,88 @@
+HTML & CSS CODE:
+
+Mainsite.html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>click to get well</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+         div{
+    width: 250px;
+    margin: 25px;
+}
+h2{
+        width: 250px;
+    margin: 25px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: blueviolet;
+        }
+form{
+  }
+body, html{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Sniglet', cursive;
+}
+h1{
+	font-weight: normal;
+	font-size: 4em;
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 500px;
+	color: red;
+	text-align: center;
+}
+p{
+    color: crimson;
+    font-family: Century Gothic;
+    font-size: 28px;
+    font-weight: 300;
+}
+form{
+	background-color: #F90;
+	color: white;
+	height: 300px;
+	cursor: pointer;
+	font-size: 1.29em;
+	font-family: 'Sniglet', cursive;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+input[type="submit"]:hover{
+	background-color: #e58f0e;
+	}
+    </style>
+    </head> 
+    <body>
+           <h1> MEDKART.COM </h1>
+            <br />
+<div>
+    <h2> Buy Medicines :</h2>
+  <form action="phpscript.php" method="post">
+                Name:<input type="text" id="name" name="name">
+                <br />
+                Locality:<input type="text" id="locality" name="locality">
+                  <br />
+                Pin Code :<input type="number" id="pincode" name="pincode">
+                  <br />
+                Medicine Name:<input type="text" id="medicine" name="medicine">
+                  <br />
+                Quantity Required:<input type="number" id="quantity" name="quantity">
+                  <br />
+			 <input type="submit" value="submit" name="buy name" id="submit">
+            </form>
+</div>
+<h2>About Us: </h2>
+<p> <a name="aboutus"></a>
+    This website is made to serve the medicines to people who cannot travel to the medical stores or those who cannot find relative medicines for their ailments. 
+    So it becomes easy to the buyers as they get their medicines at there door step.This website also allows the facility to buy medicines in bulk for retailers.</p><br />
+<p>This Website is developed by Khaja Ahmed Mohiuddin and Syed Wassay Uddin of Muffakham Jah College of Engg. & Tech.</p><br />
+<br />
+</body>
+</html>
