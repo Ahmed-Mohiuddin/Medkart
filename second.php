@@ -1,5 +1,3 @@
-PHP Code & Connection to Web Server:-
-Phpscript.php
 <html>
 <body>
     <style type="text/css">
